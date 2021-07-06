@@ -1,0 +1,120 @@
+body{
+ margin: 0;
+ padding: 0;
+ font-family: 'Roboto', sans-serif;
+}
+.header-style{
+    width: 100%;
+    height:100vh ;
+    background-image: linear-gradient(rgba(0,0,0,07),rgba(0,0,0,0.7));
+    background-image: url(Images/240_F_244710705_kJbRGNfdwXq4zfikaaXE77iQCAHsQjt0.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+}
+#href-style{
+    display:inline;
+
+}
+ul li{
+   list-style: none;
+   display: inline-block;
+   margin-right: 60px;
+   text-decoration: none;
+   align-items: center;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+li:hover{
+    cursor:pointer;
+
+}
+h1{
+    font-size: 40px;
+}
+span{
+    color: orange;
+}
+.display-style{
+    margin-left: 30px;
+    display: flex;
+}
+.display-style img{
+    width: 80%;
+}
+.button-style{
+    color:white ;
+    background-image: linear-gradient(red,tomato);
+    border-radius: 30px;
+    padding: 15px;
+    text-decoration: none;
+    border: 2px;
+    
+}
+.margin{
+    margin-bottom: 150px;
+}
+.style-width{
+    width: 50%;
+    padding: 5%;
+
+}
+.background-style{    
+    background-image: url(Images/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 20%;
+    background-position: right;
+}
+.display-style1{
+    margin-left:0;
+    display: flex;
+}
+.Recipies{
+    text-align: center;
+}
+.recipes-item{
+    width: 40%;
+    margin-left: 3%;
+    margin-right: 5%;
+    border-radius: 30px;
+    padding-left: 55px;
+    padding-top: 15px;
+    border: 10px ;
+    box-shadow:5px 5px 5px 5px gray ;
+
+
+}
+.pic-style{
+    border-radius: 15px;
+}
+#net-color{
+    color: gray;
+    background-color: rgb(3, 3, 45);
+    text-align: center;
+    padding: 15px;
+}
+#net-color h4{
+    color: white;
+}
+#Followers{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20%;
+    display: flex;
+    box-shadow:2px 2px 2px 2px gray ;
+    border: 5px ;
+    padding-right: 5px;
+    padding-left: 20px;
+    border-radius: 10px;
+    width: 50%;
+
+}
+.followers-style{
+    padding-left: 45px;
+    border: 10px ;
+}
